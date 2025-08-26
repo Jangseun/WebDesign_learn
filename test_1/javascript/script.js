@@ -9,7 +9,14 @@ jQuery(document).ready(function(){
     $('.imgslide a:gt(0)').hide();
     setInterval(function(){
         $('.imgslide a:first-child').fadeOut(1000).next('a')
-        .fadeIn(1000).end().appendTo('.imgslide')
-    },3000)
+        .fadeIn(1000).end().appendTo('.imgslide');
+    },3000);
+
+    $('.notics li:first').click(function(){
+        $('#modal').addClass("active");
+    });
+    $('.btn').click(function(){
+        $('#modal').removeClass("active");
+    });
 
 });

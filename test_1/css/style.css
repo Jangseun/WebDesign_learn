@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -216,6 +218,58 @@ header{
     margin-left:50px;
 }
 
+#modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;
+}
+
+#modal.active{
+    display: block;
+}
+
+.moal_up{
+    width: 400px;
+    height: 300px;
+    position: fixed;
+    left: 40%;
+    top: 20%;
+    background-color: #ffffff;
+}
+
+.uptitle{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upbody{
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.btn{
+    width: 80px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #cccccc;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
 footer{
     float: right;
 }
@@ -224,6 +278,7 @@ footer{
     float: right;
     width: 800px;
     height: 100px;
+    background-color: #cccccc;
 }
 
 .btlogo{
@@ -232,10 +287,21 @@ footer{
     height: 100px;
 }
 
+.btlogo img{
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
 .copy{
     float: left;
     width: 400px;
     height: 100px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 100px;
 }
 
 .familysite{
@@ -244,4 +310,13 @@ footer{
     height: 100px;
 }
 
+.familysite select {
+    float: right;
+    width: 190px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 14px;
+    
+}
 

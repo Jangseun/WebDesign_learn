@@ -1,0 +1,247 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+
+    list-style: none; /* 그 li 하면 붙는 동그라미 없애려고*/
+    font-family: "맑은 고딕";
+    color: #333333;
+}
+
+body{
+    width: 1000px;
+    height: 650px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+header{
+    float: left;
+    position: absolute;
+
+}
+
+/* 로고+메뉴 영역 */
+
+.top{
+    float: left;
+    width: 200px;
+    height: 650px;
+}
+
+.logo{
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px; /*굳이?*/
+    margin-bottom: 30px;
+}
+
+.logo img{
+    float: left;
+    width: 200px;
+    height: 40px;
+}
+
+.menu{
+    float: left;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.navi>li{
+    float: left;
+    width: 180px;
+}
+
+.navi>li>a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.navi>li>a:hover{
+    background-color: #eeeeee;
+    color: #000000;
+}
+
+.submenu{
+    float: left;
+    width: 180px;
+    height: 100%;
+    left: 180px;
+    top: 0px;
+    position: absolute;
+    background-color: #cccccc;
+    display: none;
+    z-index: 1;
+}
+
+.submenu>li>a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #999999;
+    color: #cccccc;
+}
+
+.submenu>li>a:hover{
+    background-color: #999999;
+    color: #ffff00;
+}
+
+.imgslide{
+    float: right;
+    width: 800px;
+    height: 350px;
+    position: relative;
+}
+
+.imgslide > a{
+    display: block;
+    position: absolute;
+}
+
+.imgslide span{
+    width: 160px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    left: 40%;
+    top: 45%;
+    position: absolute;
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+
+.contents{
+    float: right;
+    width: 800px;
+    height: 200px;
+}
+
+.notics{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+.tab{
+    float: left;
+    width: 300px;
+}
+
+.notics h4{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+.notics ul{
+    float: left;
+    width: 280px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.notics li span{
+    float: right;
+}
+
+.notics li:hover {
+    font-weight: bold;
+}
+
+.gallery{
+	float:left;
+	width:300px;
+	height:200px;
+}
+
+.gallery h4{
+	float:left;
+	height:50px;
+	line-height:50px;
+}
+
+.gallery ul li{
+    float:left;
+    padding:10px;
+    margin-top:10px;
+}
+
+.gallery img{
+    width:80px;	
+    height:80px;
+}
+
+.gallery li:hover{
+    opacity:0.5;
+}
+
+.shortcut{
+	float:right;
+	width:200px;
+	height:200px;
+}
+
+.shortcut img{
+    float:right;
+    width:180px;
+    height:180px;
+    padding:10px;	
+}
+
+.sctext{
+    width:100px;
+    text-align:center;
+    font-weight:bold;
+    position:absolute;
+    background-color:rgba(255,255,255,0.5);
+    margin-top:85px;
+    margin-left:50px;
+}
+
+footer{
+    float: right;
+}
+
+.bottom{
+    float: right;
+    width: 800px;
+    height: 100px;
+}
+
+.btlogo{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+.copy{
+    float: left;
+    width: 400px;
+    height: 100px;
+}
+
+.familysite{
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+
+

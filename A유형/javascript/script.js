@@ -27,4 +27,12 @@ $(function(){
 
         return false;
     })
+
+    $('.pop').click(function() {
+        $('.popcon').show();
+        return false;
+    })
+    $('.popcon article button').click(function() {
+        $('.popcon').hide()
+    })
 })
